@@ -19,7 +19,7 @@ $discount = mysqli_fetch_all($select, MYSQLI_ASSOC);
 
 
 /**
- * Get interval
+ * Get date for view current price
  */
 foreach ($discount as $value) {
 
